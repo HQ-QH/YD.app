@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/sign-in.css" />
+		<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="js/all.js"></script>
+		<title>签到领豆</title>
+		<style>
+			a {
+				text-decoration: none;
+				color: #000000;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--全局-->
+		<div class="body">
+			<!--状态栏-->
+			<!--<div class="status-bar">
+			</div>-->
+			<!--导航栏-->
+			<div class="shop-header">
+				<ul>
+					<li id="fanhui">
+						<a href="#">
+							<span class="glyphicon glyphicon-chevron-left" id="jian"></span>
+						</a>
+					</li>
+					<li>
+						签到领豆<span>(6)</span>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/wen_05.png" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--轮播图-->
+			<div class="banner">
+				<img src="img/qiandao_02.png">
+			</div>
+			<!--导航栏-选项卡-->
+			<div class="six">
+				<ul>
+					<li class="six-d">
+						<a href="#" id="jx">精选</a>
+					</li>
+					<li class="six-d">
+						<a href="#" id="my">母婴</a>
+					</li>
+					<li class="six-d">
+						<a href="#" id="mz">美妆</a>
+					</li>
+					<li class="six-d">
+						<a href="#" id="bjp">保健品</a>
+					</li>
+					<li class="six-d">
+						<a href="#" id="jjsh">家居</a>
+					</li>
+					<li class="six-d">
+						<a href="#" id="sx">生鲜</a>
+					</li>
+				</ul>
+			</div>
+			<!--精选详情-->
+			<div class="select">
+				<!--精选-->
+				<div class="sel-one">
+					<ul>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_05.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_07.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_11.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_12.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_15.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_16.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<!--母婴-->
+				<div class="sel-one-mom">
+					<ul>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_15.png">
+							<p>
+								kobe lettcue新款 精致女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_12.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_11.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_05.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_07.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_16.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<!--美妆-->
+				<div class="sel-one-mz">
+					<ul>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_11.png">
+							<p>
+								kobe lettcue新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_15.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_05.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_12.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_07.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_16.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<!--保健品-->
+				<div class="sel-one-bjp">
+					<ul>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_11.png">
+							<p>
+								女士 kobe lettcue新款</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_15.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_05.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_12.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_07.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_16.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<!--家居生活-->
+				<div class="sel-one-jjsh">
+					<ul>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_12.png">
+							<p>
+								kobe lettcue新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_15.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_11.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_07.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_05.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_16.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<!--生鲜-->
+				<div class="sel-one-sx">
+					<ul>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_07.png">
+							<p>
+								kobe lettcue新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_16.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_05.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_12.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_11.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/qiandao_15.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--quanju-->
+		</div>
+	</body>
+	<script type="text/javascript" src="js/rem.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('.six-d').eq(0).addClass('cour');
+			$('.six li').click(function() {
+				$(this).addClass('cour').siblings().removeClass('cour');
+			});
+			$("#jx").click(function() {
+				$(".sel-one").show();
+				$(".sel-one-mom").hide();
+				$(".sel-one-mz").hide();
+				$(".sel-one-bjp").hide();
+				$(".sel-one-jjsh").hide();
+				$(".sel-one-sx").hide();
+
+			});
+			$("#my").click(function() {
+				$(".sel-one").hide();
+				$(".sel-one-mom").show();
+				$(".sel-one-mz").hide();
+				$(".sel-one-bjp").hide();
+				$(".sel-one-jjsh").hide();
+				$(".sel-one-sx").hide();
+			});
+			$("#mz").click(function() {
+				$(".sel-one").hide();
+				$(".sel-one-mom").hide();
+				$(".sel-one-mz").show();
+				$(".sel-one-bjp").hide();
+				$(".sel-one-jjsh").hide();
+				$(".sel-one-sx").hide();
+			});
+			$("#bjp").click(function() {
+				$(".sel-one").hide();
+				$(".sel-one-mom").hide();
+				$(".sel-one-mz").hide();
+				$(".sel-one-bjp").show();
+				$(".sel-one-jjsh").hide();
+				$(".sel-one-sx").hide();
+
+			});
+			$("#jjsh").click(function() {
+				$(".sel-one").hide();
+				$(".sel-one-mom").hide();
+				$(".sel-one-mz").hide();
+				$(".sel-one-bjp").hide();
+				$(".sel-one-jjsh").show();
+				$(".sel-one-sx").hide();
+			});
+			$("#sx").click(function() {
+				$(".sel-one").hide();
+				$(".sel-one-mom").hide();
+				$(".sel-one-mz").hide();
+				$(".sel-one-bjp").hide();
+				$(".sel-one-jjsh").hide();
+				$(".sel-one-sx").show();
+			});
+		})
+	</script>
+
+</html>

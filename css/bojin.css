@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 100px; }
+
+.coner div:nth-child(2) {
+  display: none; }
+
+.coner div:nth-child(3) {
+  display: none; }
+
+.coner div:nth-child(4) {
+  display: none; }
+
+.qj {
+  width: 100%;
+  width: 100%;
+  margin: auto; }
+  .qj li {
+    list-style: none; }
+  .qj .status-bar {
+    width: 100%;
+    height: 0.4rem;
+    background-color: gray; }
+  .qj .shop-header {
+    width: 100%;
+    height: 0.5rem;
+    background-image: url(../img/shop-header.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center; }
+    .qj .shop-header ul {
+      width: 93%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between; }
+      .qj .shop-header ul li {
+        font-size: 0.17rem;
+        text-align: center;
+        color: #fff; }
+        .qj .shop-header ul li img {
+          display: flex;
+          height: 100%; }
+  .qj #six-xxk {
+    width: 100%;
+    height: 0.46rem;
+    display: flex;
+    justify-content: space-around; }
+    .qj #six-xxk a {
+      text-decoration: none;
+      color: #000000; }
+    .qj #six-xxk ul {
+      display: flex;
+      width: 100%; }
+    .qj #six-xxk li {
+      width: 25%;
+      height: 0.46rem;
+      text-align: center; }
+    .qj #six-xxk .cour-one {
+      border-bottom: 2px red solid;
+      color: red;
+      margin: auto; }
+  .qj .six-d {
+    width: 25%;
+    height: 0.46rem;
+    text-align: center;
+    line-height: 0.46rem;
+    border-bottom: 1px gainsboro solid; }
+  .qj .coner {
+    width: 100%; }
+  .qj .sel-one,
+  .qj .sel-two,
+  .qj .sel-three,
+  .qj .sel-four {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    .qj .sel-one ul,
+    .qj .sel-two ul,
+    .qj .sel-three ul,
+    .qj .sel-four ul {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%; }
+      .qj .sel-one ul li,
+      .qj .sel-two ul li,
+      .qj .sel-three ul li,
+      .qj .sel-four ul li {
+        width: 48%;
+        height: 2.40rem;
+        text-align: center;
+        margin: auto;
+        background-color: #fff; }
+      .qj .sel-one ul p,
+      .qj .sel-two ul p,
+      .qj .sel-three ul p,
+      .qj .sel-four ul p {
+        width: 100%;
+        text-align: center; }
+      .qj .sel-one ul li img,
+      .qj .sel-two ul li img,
+      .qj .sel-three ul li img,
+      .qj .sel-four ul li img {
+        width: 90%;
+        height: 1.7rem; }
+
+#jian {
+  color: white;
+  font-size: 0.22rem; }
+
+/*# sourceMappingURL=bojin.css.map */

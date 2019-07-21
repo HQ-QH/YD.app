@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<title></title>
+		<link rel="stylesheet" href="css/Findgood.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/rem.js"></script>
+		<script type="text/javascript" src="js/jquery-1.12.4.js" ></script>
+		<script type="text/javascript" src="js/all.js" ></script>
+	</head>
+
+	<body>
+
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<!-- Demo styles -->
+		<style>
+			html,
+			body {
+				position: relative;
+				height: 100%;
+			}
+			
+			body {
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				color: #000;
+				margin: 0;
+				padding: 0;
+			}
+			
+			.swiper-container {
+				width: 100%;
+				margin-top: 0.05rem;
+			}
+			
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #fff;
+				/* Center slide text vertically */
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+			
+			.swiper-pagination-bullet-active {
+				background: #ff304f;
+			}
+		</style>
+
+		<div class="header-sou">
+			<ul>
+				<li>
+					<a href="#">
+						<img src="img/sao_03.png" />
+					</a>
+				</li>
+
+				<li>
+					发现好货
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/hongb.png" />
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/wen_05.png" />
+					</a>
+				</li>
+			</ul>
+
+		</div>
+		<div class="header-nav">
+			<ul>
+				<li>
+					<a href="">精选</a>
+				</li>
+				<li>
+					<a href="">直播</a>
+				</li>
+				<li>
+					<a href="">视频购</a>
+				</li>
+				<li>
+					<a href="">社区</a>
+				</li>
+				<li>
+					<a href="">家具生活</a>
+				</li>
+				<li>
+					<a href="">生鲜</a>
+				</li>
+			</ul>
+		</div>
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/find-1.jpg" style="width: 100%; height: 100%;" /></div>
+				<div class="swiper-slide"><img src="img/find-2.jpg" style="width: 100%;height: 100%;" /></div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+		<!-- Swiper JS -->
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				pagination: {
+					el: '.swiper-pagination',
+				},
+			});
+		</script>
+
+		<div class="main">
+			<ul>
+				<li>
+					<div class="main-w">
+						<div class="main-w-one">
+							<div>
+								<img src="img/user1.png" />
+							</div>
+							<div>
+								<p>轻量科技</p>
+								<span>
+									11月10日前
+								</span>
+							</div>
+							<div>
+								<input type="button" value="+订阅" />
+							</div>
+						</div>
+
+						<div class="main-w-two">
+							<div>
+								<img src="img/sf-3.jpg" />
+							</div>
+
+							<div>
+								<p>
+									<a href="#">
+										时尚女神节抢5折优惠券转身变女神 你
+									</a>
+									<a href="#">
+										想要的这里都有
+									</a>
+								</p>
+
+								<p>
+									1.1万人浏览2390件宝贝
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="main-w">
+						<div class="main-w-one">
+							<div>
+								<img src="img/user4.png" />
+							</div>
+							<div>
+								<p>艾佳生活</p>
+								<span>
+								10月10日发布
+								</span>
+							</div>
+							<div>
+								<input type="button" value="+订阅" />
+							</div>
+						</div>
+
+						<div class="main-w-two">
+							<div>
+								<img src="img/sf-7.jpg" />
+							</div>
+
+							<div>
+								<p>
+									<a href="#">
+										席梦思（Simmons）原装进口独立袋弹
+									</a>
+									<a href="#">
+										资软硬适中艾乔安娜承托灰蓝白1500*
+									</a>
+									2000*280灰蓝白1500*2000*280
+								</p>
+
+								<p>
+									1.1万人浏览2390件宝贝
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="main-w">
+						<div class="main-w-one">
+							<div>
+								<img src="img/user3.png" />
+							</div>
+							<div>
+								<p>小虾米</p>
+								<span>
+									10月10日发布
+								</span>
+							</div>
+							<div>
+								<input type="button" value="+订阅" />
+							</div>
+						</div>
+
+						<div class="main-w-two">
+							<div>
+								<img src="img/sf-5.jpg" />
+							</div>
+
+							<div>
+								<p>
+									<a href="#">
+										ML权力的游戏史塔克家族徽章印花短袖T
+									</a>
+									<a href="#">
+										恤1700140黑色AK权力的游戏史塔克家
+									</a>
+									族徽章印花短袖T恤170140黑色aafafafafa
+								</p>
+
+								<p>
+									1.1万人浏览2390件宝贝afafafafa
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="main-w">
+						<div class="main-w-one">
+							<div>
+								<img src="img/user2.png" />
+							</div>
+							<div>
+								<p>每天都坚一下</p>
+								<span>
+									11月10日发布
+								</span>
+							</div>
+							<div>
+								<input type="button" value="+订阅" />
+							</div>
+						</div>
+
+						<div class="main-w-two">
+							<div>
+								<img src="img/sf-8.jpg" />
+							</div>
+
+							<div>
+								<p>
+									<a href="#">
+										沃隆每日坚果750g零食果干无添加混合
+									</a>
+									<a href="#">
+										坚果孕妇食品小包装礼盒成人A款=25g*
+									</a>
+									30袋
+								</p>
+
+								<p>
+									1.1万人浏览2390件宝贝
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="main-w">
+						<div class="main-w-one">
+							<div>
+								<img src="img/user0.png" />
+							</div>
+							<div>
+								<p>时尚店铺</p>
+								<span>
+									9月10日发布
+								</span>
+							</div>
+							<div>
+								<input type="button" value="+订阅" />
+							</div>
+						</div>
+						<h3>
+								双11你的购物车我全包了
+							</h3>
+						<div class="main-w-two2">
+
+							<div>
+								<a href="#">
+									<img src="img/sf-7.jpg" />
+								</a>
+							</div>
+
+							<div>
+								<a href="#">
+									<img src="img/sf-5.jpg" />
+								</a>
+							</div>
+
+							<div>
+								<a href="#">
+									<img src="img/sf-6.jpg" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+
+		</div>
+		<div class="main1">
+
+			<div class="guang">
+				<a href="#">
+					<img src="img/cf-6.jpg" />
+				</a>
+			</div>
+			<div class="guang-w">
+				<ul>
+					<li>
+						<ul>
+							<li>
+								<img src="img/sf-20.jpg" />
+							</li>
+							<li>
+								<p>
+									<a href="#">
+										nissen凹凸纵 横弹性沙发套
+									</a>
+								</p>
+							</li>
+							<li>
+								￥31149
+								<s>
+								11499
+								</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/sf-21.jpg" />
+							</li>
+							<li>
+								<p>
+									<a href="#">
+										日本NITORI尼商城精选对伴商城精选韵达利三折坐
+									</a>
+								</p>
+							</li>
+							<li>
+								￥1199
+								<s>
+								1198
+								</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/sf-22.jpg" />
+							</li>
+							<li>
+								<p>
+									<a href="#">
+										商城精选对伴沙发
+									</a>
+								</p>
+							</li>
+							<li>
+								￥2399
+								<s>
+								9999
+								</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/sf-23.jpg" />
+							</li>
+							<li>
+								<p>
+									<a href="#">
+										商城精选韵系列沙发三
+									</a>
+								</p>
+							</li>
+							<li>
+								￥9189
+								<s>
+								4215
+								</s>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<ul>
+							<li>
+								<img src="img/sf-19.jpg" />
+							</li>
+							<li>
+								<p>
+									<a href="#">
+										nissen凹凸纵 横弹性沙发套
+									</a>
+								</p>
+							</li>
+							<li>
+								￥31149
+								<s>
+								11499
+								</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/sf-18.jpg" />
+							</li>
+							<li>
+								<p>
+									<a href="#">
+										nissen凹凸纵 横弹性沙发套
+									</a>
+								</p>
+							</li>
+							<li>
+								￥31149
+								<s>
+								11499
+								</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/sf-17.jpg" />
+							</li>
+							<li>
+								<p>
+									<a href="#">
+										nissen凹凸纵 横弹性沙发套
+									</a>
+								</p>
+							</li>
+							<li>
+								￥31149
+								<s>
+								11499
+								</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/sf-16.jpg" />
+							</li>
+							<li>
+								<p>
+									<a href="#">
+										商城精选韵系列沙发三
+									</a>
+								</p>
+							</li>
+							<li>
+								￥9189
+								<s>
+								4215
+								</s>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<!--Recommend:为你推荐-->
+			<div class="Recommend-guang">
+				<img src="img/icon-tj3.jpg" />
+			</div>
+			<div class="Recommend">
+				<ul>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-15.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-14.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-11.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-10.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-9.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-8.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-16.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-15.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-17.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-18.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-19.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-20.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-21.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-22.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-24.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-23.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+
+			<div class="footer">
+			<ul>
+				<li>
+					<div class="glyphicon glyphicon-home" aria-hidden="true"></div>
+					<div>首页</div>
+				</li>
+				<li>
+					<div class="glyphicon glyphicon-th-large" aria-hidden="true"></div>
+					<div>分类</div>
+				</li>
+				<li class="check">
+					<div class="glyphicon glyphicon-record" aria-hidden="true"></div>
+					<div>发现</div>
+				</li>
+				<li>
+					<div class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></div>
+					<div>购物车</div>
+				</li>
+				<li>
+					<div class="glyphicon glyphicon-user" aria-hidden="true"></div>
+					<div>我的</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+
+</html>

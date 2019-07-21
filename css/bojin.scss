@@ -1,0 +1,123 @@
+                        * {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        html {
+                            font-size: 100px;
+                        }
+                        
+                        .coner div:nth-child(2) {
+                            display: none;
+                        }
+                        
+                        .coner div:nth-child(3) {
+                            display: none;
+                        }
+                        
+                        .coner div:nth-child(4) {
+                            display: none;
+                        }
+                        
+                        .qj {
+                            width: 100%;
+                            li {
+                                list-style: none;
+                            }
+                            width: 100%;
+                            margin: auto;
+                            .status-bar {
+                                width: 100%;
+                                height: 0.4rem;
+                                background-color: gray;
+                            }
+                            .shop-header {
+                                width: 100%;
+                                height: 0.5rem;
+                                background-image: url(../img/shop-header.png);
+                                background-size: 100% 100%;
+                                display: flex;
+                                justify-content: center;
+                                ul {
+                                    width: 93%;
+                                    margin: auto;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    li {
+                                        font-size: 0.17rem;
+                                        text-align: center;
+                                        color: #fff;
+                                        img {
+                                            display: flex;
+                                            height: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                            #six-xxk {
+                                width: 100%;
+                                height: 0.46rem;
+                                display: flex;
+                                justify-content: space-around;
+                                a {
+                                    text-decoration: none;
+                                    color: #000000;
+                                }
+                                ul {
+                                    display: flex;
+                                    width: 100%;
+                                }
+                                li {
+                                    width: 25%;
+                                    height: 0.46rem;
+                                    text-align: center;
+                                }
+                                .cour-one {
+                                    border-bottom: 2px red solid;
+                                    color: red;
+                                    margin: auto;
+                                }
+                            }
+                            .six-d {
+                                width: 25%;
+                                height: 0.46rem;
+                                text-align: center;
+                                line-height: 0.46rem;
+                                border-bottom: 1px gainsboro solid;
+                            }
+                            .coner {
+                                width: 100%;
+                            }
+                            .sel-one,
+                            .sel-two,
+                            .sel-three,
+                            .sel-four {
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-around;
+                                ul {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    width: 100%;
+                                    li {
+                                        width: 48%;
+                                        height: 2.40rem;
+                                        text-align: center;
+                                        margin: auto;
+                                        background-color: #fff;
+                                    }
+                                    p {
+                                        width: 100%;
+                                        text-align: center;
+                                    }
+                                    li img {
+                                        width: 90%;
+                                        height: 1.7rem;
+                                    }
+                                }
+                            }
+                        }
+                        #jian{
+                            color: white;
+                            font-size: 0.22rem;
+                        }

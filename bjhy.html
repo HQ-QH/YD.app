@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/bojin.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/jquery-1.12.4.js" ></script>
+		<script type="text/javascript" src="js/all.js" ></script>
+		<title>铂金会员</title>
+		<style>
+			a {
+				text-decoration: none;
+				color: #000000;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="qj">
+			<!--导航栏-->
+			<div class="shop-header">
+				<ul>
+					<li id="fanhui">
+						<a href="#">
+							<span class="glyphicon glyphicon-chevron-left" id="jian"></span>
+						</a>
+					</li>
+					<li>
+						铂金会员<span>(6)</span>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/wen_05.png" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--导航栏-选项卡-->
+			<div id="six-xxk">
+				<ul>
+					<li class="six-d">
+						<a href="#" id="jx">专享价</a>
+					</li>
+					<li class="six-d">
+						<a href="#" id="my">免费区</a>
+					</li>
+					<li class="six-d">
+						<a href="#" id="mz">运费券</a>
+					</li>
+					<li class="six-d">
+						<a href="#" id="bjp">专享服</a>
+					</li>
+				</ul>
+			</div>
+			<!--内容-->
+			<div class="coner">
+				<!--专享价-->
+				<div class="sel-one">
+					<ul>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/ms_05.png">
+							<p>
+								kobe lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li></li>
+					</ul>
+				</div>
+				<!--免费区-->
+				<div class="sel-two">
+					<ul>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/ms_05.png">
+							<p>
+								kobe lettcue 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li></li>
+					</ul>
+				</div>
+				<!--运费券-->
+				<div class="sel-three">
+					<ul>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/ms_05.png">
+							<p>
+								kobe 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li></li>
+					</ul>
+				</div>
+				<!--专项服务-->
+				<div class="sel-four">
+					<ul>
+						<li style="margin-top: 0.1rem;">
+							<img src="img/ms_05.png">
+							<p>
+								lettcue 秋冬新款 女士</br>日系甜美纯色高龄宽松淘...</br>
+								<span style="color: red;font-size: 15px;">￥389.9&nbsp;
+									<a href="#" style="text-decoration:line-through;font-size: 12px;">￥469.6</a>&nbsp;
+									<a href="#" style="color: gray;font-size: 12px;">已兑134件</a></span>
+							</p>
+						</li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			<!--全局-->
+		</div>
+	</body>
+	<script type="text/javascript" src="js/rem.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('.six-d').eq(0).addClass('cour-one');
+			$("#six-xxk li").click(function() {
+				$(this).addClass('cour-one').siblings().removeClass('cour-one');
+			});
+			$("#jx").click(function() {
+				$(".sel-one").show();
+				$(".sel-two").hide();
+				$(".sel-three").hide();
+				$(".sel-four").hide();
+			});
+			$("#my").click(function() {
+				$(".sel-one").hide();
+				$(".sel-two").show();
+				$(".sel-three").hide();
+				$(".sel-four").hide();
+			});
+			$("#mz").click(function() {
+				$(".sel-one").hide();
+				$(".sel-two").hide();
+				$(".sel-three").show();
+				$(".sel-four").hide();
+			});
+			$("#bjp").click(function() {
+				$(".sel-one").hide();
+				$(".sel-two").hide();
+				$(".sel-three").hide();
+				$(".sel-four").show();
+			});
+		})
+	</script>
+
+</html>

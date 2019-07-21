@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 100px; }
+
+.our {
+  background-color: orangered;
+  color: #fff; }
+
+.shoppers div:nth-child(3) {
+  display: none; }
+
+.shoppers div:nth-child(6) {
+  display: none; }
+
+.shoppers div:nth-child(9) {
+  display: none; }
+
+.shoppers div:nth-child(12) {
+  display: none; }
+
+.body {
+  width: 100%;
+  margin: auto; }
+  .body li {
+    list-style: none; }
+  .body .status-bar {
+    width: 100%;
+    height: 0.4rem;
+    background-color: gray; }
+  .body .shop-header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 0.5rem;
+    background-image: url(../img/shop-header.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center; }
+    .body .shop-header ul {
+      width: 93%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between; }
+      .body .shop-header ul li {
+        font-size: 0.17rem;
+        text-align: center;
+        color: #fff; }
+        .body .shop-header ul li img {
+          display: flex;
+          height: 100%; }
+  .body .snap-up {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.23rem; }
+    .body .snap-up ul {
+      display: flex;
+      justify-content: space-around; }
+      .body .snap-up ul li {
+        width: 20%;
+        height: 0.5rem;
+        margin: auto;
+        text-align: center; }
+        .body .snap-up ul li p {
+          font-size: 16px; }
+        .body .snap-up ul li span {
+          margin-left: 0.03rem;
+          font-size: 12px; }
+  .body .snap {
+    width: 100%;
+    height: 0.4rem;
+    background-color: #fff3d9;
+    line-height: 0.4rem; }
+    .body .snap p {
+      color: orangered;
+      font-size: 15px;
+      margin-left: 0.2rem;
+      vertical-align: bottom; }
+  .body .shoppers {
+    width: 100%; }
+    .body .shoppers .bao1,
+    .body .shoppers .bao2,
+    .body .shoppers .bao3,
+    .body .shoppers .bao4,
+    .body .shoppers .bao5 {
+      width: 100%; }
+      .body .shoppers .bao1 ul li,
+      .body .shoppers .bao2 ul li,
+      .body .shoppers .bao3 ul li,
+      .body .shoppers .bao4 ul li,
+      .body .shoppers .bao5 ul li {
+        width: 100%;
+        height: 1.35rem; }
+        .body .shoppers .bao1 ul li .bao,
+        .body .shoppers .bao2 ul li .bao,
+        .body .shoppers .bao3 ul li .bao,
+        .body .shoppers .bao4 ul li .bao,
+        .body .shoppers .bao5 ul li .bao {
+          width: 100%;
+          height: 0.95rem;
+          border-bottom: 1px gainsboro solid; }
+          .body .shoppers .bao1 ul li .bao .shop-shop,
+          .body .shoppers .bao2 ul li .bao .shop-shop,
+          .body .shoppers .bao3 ul li .bao .shop-shop,
+          .body .shoppers .bao4 ul li .bao .shop-shop,
+          .body .shoppers .bao5 ul li .bao .shop-shop {
+            width: 100%;
+            text-align: center; }
+            .body .shoppers .bao1 ul li .bao .shop-shop .shop-img img,
+            .body .shoppers .bao2 ul li .bao .shop-shop .shop-img img,
+            .body .shoppers .bao3 ul li .bao .shop-shop .shop-img img,
+            .body .shoppers .bao4 ul li .bao .shop-shop .shop-img img,
+            .body .shoppers .bao5 ul li .bao .shop-shop .shop-img img {
+              width: 20%;
+              height: 0.8rem;
+              float: left;
+              margin-left: 0.1rem;
+              margin-top: 0.1rem; }
+            .body .shoppers .bao1 ul li .bao .shop-shop .shop-zi,
+            .body .shoppers .bao2 ul li .bao .shop-shop .shop-zi,
+            .body .shoppers .bao3 ul li .bao .shop-shop .shop-zi,
+            .body .shoppers .bao4 ul li .bao .shop-shop .shop-zi,
+            .body .shoppers .bao5 ul li .bao .shop-shop .shop-zi {
+              width: 70%;
+              height: 0.8rem;
+              float: right;
+              margin-right: 0.1rem;
+              margin-top: 0.1rem; }
+            .body .shoppers .bao1 ul li .bao .shop-shop .p-li,
+            .body .shoppers .bao2 ul li .bao .shop-shop .p-li,
+            .body .shoppers .bao3 ul li .bao .shop-shop .p-li,
+            .body .shoppers .bao4 ul li .bao .shop-shop .p-li,
+            .body .shoppers .bao5 ul li .bao .shop-shop .p-li {
+              width: 100%;
+              height: 0.4rem;
+              display: flex;
+              justify-content: space-around;
+              line-height: 0.25rem; }
+              .body .shoppers .bao1 ul li .bao .shop-shop .p-li .p-p,
+              .body .shoppers .bao2 ul li .bao .shop-shop .p-li .p-p,
+              .body .shoppers .bao3 ul li .bao .shop-shop .p-li .p-p,
+              .body .shoppers .bao4 ul li .bao .shop-shop .p-li .p-p,
+              .body .shoppers .bao5 ul li .bao .shop-shop .p-li .p-p {
+                width: 50%;
+                height: 0.3rem;
+                color: gray;
+                font-size: 13px;
+                float: left;
+                text-align: left; }
+              .body .shoppers .bao1 ul li .bao .shop-shop .p-li .p-a,
+              .body .shoppers .bao2 ul li .bao .shop-shop .p-li .p-a,
+              .body .shoppers .bao3 ul li .bao .shop-shop .p-li .p-a,
+              .body .shoppers .bao4 ul li .bao .shop-shop .p-li .p-a,
+              .body .shoppers .bao5 ul li .bao .shop-shop .p-li .p-a {
+                text-align: right;
+                width: 50%;
+                height: 0.3rem;
+                color: gray;
+                font-size: 13px;
+                float: right; }
+            .body .shoppers .bao1 ul li .bao .shop-shop .p-li:after,
+            .body .shoppers .bao2 ul li .bao .shop-shop .p-li:after,
+            .body .shoppers .bao3 ul li .bao .shop-shop .p-li:after,
+            .body .shoppers .bao4 ul li .bao .shop-shop .p-li:after,
+            .body .shoppers .bao5 ul li .bao .shop-shop .p-li:after {
+              clear: both;
+              display: block;
+              content: ""; }
+          .body .shoppers .bao1 ul li .bao .shop-shop:after,
+          .body .shoppers .bao2 ul li .bao .shop-shop:after,
+          .body .shoppers .bao3 ul li .bao .shop-shop:after,
+          .body .shoppers .bao4 ul li .bao .shop-shop:after,
+          .body .shoppers .bao5 ul li .bao .shop-shop:after {
+            clear: both;
+            display: block;
+            content: ""; }
+          .body .shoppers .bao1 ul li .bao .an,
+          .body .shoppers .bao2 ul li .bao .an,
+          .body .shoppers .bao3 ul li .bao .an,
+          .body .shoppers .bao4 ul li .bao .an,
+          .body .shoppers .bao5 ul li .bao .an {
+            width: 23%;
+            height: 0.3rem;
+            float: right;
+            margin-top: 0.13rem; }
+            .body .shoppers .bao1 ul li .bao .an button,
+            .body .shoppers .bao2 ul li .bao .an button,
+            .body .shoppers .bao3 ul li .bao .an button,
+            .body .shoppers .bao4 ul li .bao .an button,
+            .body .shoppers .bao5 ul li .bao .an button {
+              width: 100%;
+              height: 0.3rem;
+              text-align: center;
+              margin-left: -0.1rem;
+              outline: none;
+              background-color: orangered;
+              border-color: transparent;
+              border-radius: 0.05rem; }
+              .body .shoppers .bao1 ul li .bao .an button span,
+              .body .shoppers .bao2 ul li .bao .an button span,
+              .body .shoppers .bao3 ul li .bao .an button span,
+              .body .shoppers .bao4 ul li .bao .an button span,
+              .body .shoppers .bao5 ul li .bao .an button span {
+                color: #fff;
+                font-size: 15px;
+                line-height: 0.22rem; }
+
+#jian {
+  color: white;
+  font-size: 0.20rem; }
+
+#jian1 {
+  color: white;
+  font-size: 0.20rem; }
+
+/*# sourceMappingURL=xsqg.css.map */

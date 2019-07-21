@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  padding-bottom: 0.5rem; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.shop-header {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  height: 0.5rem;
+  background-image: url(../img/shop-header.png);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center; }
+  .shop-header ul {
+    width: 93%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+    .shop-header ul li {
+      font-size: 0.17rem;
+      text-align: center;
+      color: #ffffff; }
+      .shop-header ul li img {
+        display: flex;
+        height: 100%; }
+
+.shop-header1 {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 0.5rem;
+  display: flex;
+  justify-content: center; }
+  .shop-header1 ul {
+    height: 36%;
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+    .shop-header1 ul li:nth-of-type(1) {
+      width: 5%;
+      height: 100%; }
+      .shop-header1 ul li:nth-of-type(1) img {
+        display: flex;
+        height: 98%; }
+    .shop-header1 ul li:nth-of-type(2) {
+      width: 63%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      font-size: 0.13rem;
+      font-weight: 600; }
+      .shop-header1 ul li:nth-of-type(2) img {
+        display: flex;
+        height: 100%; }
+    .shop-header1 ul li:nth-of-type(3) {
+      width: 25%;
+      height: 100%;
+      font-size: 0.1rem;
+      text-align: right;
+      line-height: 0.18rem; }
+      .shop-header1 ul li:nth-of-type(3) a {
+        font-weight: 600;
+        color: #000000; }
+
+.shopCart-w {
+  width: 100%; }
+  .shopCart-w ul {
+    width: 100%; }
+    .shopCart-w ul li {
+      padding-top: 0.01rem;
+      width: 100%;
+      height: 1.37rem;
+      background-color: #f5f5f5;
+      margin-bottom: 0.1rem; }
+      .shopCart-w ul li ul {
+        width: 94%;
+        height: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.18rem; }
+        .shopCart-w ul li ul li:nth-of-type(1) {
+          height: 100%;
+          width: 5%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .shopCart-w ul li ul li:nth-of-type(1) img {
+            width: 100%; }
+        .shopCart-w ul li ul li:nth-of-type(2) {
+          height: 100%;
+          width: 25%;
+          display: flex; }
+          .shopCart-w ul li ul li:nth-of-type(2) img {
+            width: 100%; }
+        .shopCart-w ul li ul li:nth-of-type(3) {
+          height: 100%;
+          width: 66%; }
+          .shopCart-w ul li ul li:nth-of-type(3) p:nth-of-type(1) {
+            overflow: hidden;
+            font-size: 0.15rem; }
+          .shopCart-w ul li ul li:nth-of-type(3) p:nth-of-type(2) {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            font-size: 0.15rem; }
+          .shopCart-w ul li ul li:nth-of-type(3) p:nth-of-type(3) {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            font-size: 0.13rem;
+            color: #c0c0c0;
+            width: 80%; }
+          .shopCart-w ul li ul li:nth-of-type(3) .jie {
+            height: 0.22rem;
+            font-size: 0.17rem;
+            margin-top: 0.1rem;
+            display: flex;
+            justify-content: space-between; }
+            .shopCart-w ul li ul li:nth-of-type(3) .jie .sp {
+              color: #ff4f40; }
+            .shopCart-w ul li ul li:nth-of-type(3) .jie .jie-input {
+              width: 0.7rem;
+              border: 1px solid #c0c0c0;
+              display: flex; }
+              .shopCart-w ul li ul li:nth-of-type(3) .jie .jie-input input {
+                border: none;
+                outline: none;
+                width: 34%;
+                height: 100%;
+                text-align: center; }
+              .shopCart-w ul li ul li:nth-of-type(3) .jie .jie-input input:nth-of-type(1) {
+                background-color: #ffffff; }
+              .shopCart-w ul li ul li:nth-of-type(3) .jie .jie-input input:nth-of-type(2) {
+                background-color: #f5f5f5;
+                border-left: 1px solid #c0c0c0;
+                border-right: 1px solid #c0c0c0; }
+              .shopCart-w ul li ul li:nth-of-type(3) .jie .jie-input input:nth-of-type(3) {
+                background-color: #ffffff; }
+
+.zongjie {
+  width: 94%;
+  height: 0.5rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 0.13rem;
+  line-height: 0.4rem; }
+  .zongjie span {
+    color: #ff4f40; }
+
+.jieSuan {
+  background-color: #FFFFFF;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 0.53rem;
+  box-shadow: 0px -3px 12px #c0c0c0; }
+  .jieSuan ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .jieSuan ul li:nth-of-type(1) {
+      height: 100%;
+      width: 5%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 0.1rem; }
+      .jieSuan ul li:nth-of-type(1) img {
+        width: 100%; }
+    .jieSuan ul li:nth-of-type(2) {
+      width: 13%;
+      height: 100%;
+      text-align: left;
+      font-size: 0.13rem;
+      line-height: 0.53rem; }
+    .jieSuan ul li:nth-of-type(3) {
+      width: 14%;
+      height: 100%;
+      text-align: center;
+      font-size: 0.17rem;
+      line-height: 0.53rem; }
+    .jieSuan ul li:nth-of-type(4) {
+      width: 25%;
+      height: 100%;
+      text-align: left;
+      font-size: 0.17rem;
+      line-height: 0.53rem; }
+    .jieSuan ul li:nth-of-type(5) {
+      display: flex;
+      width: 35%;
+      height: 100%; }
+      .jieSuan ul li:nth-of-type(5) input {
+        font-size: 0.16rem;
+        color: #ffffff;
+        width: 100%;
+        height: 100%;
+        background-color: #fc6248;
+        border: none; }
+
+#jian {
+  color: white;
+  font-size: 0.2rem; }
+
+/*# sourceMappingURL=shopCart.css.map */

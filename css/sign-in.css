@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 100px; }
+
+.body {
+  width: 100%;
+  margin: auto; }
+  .body .select div:nth-child(2) {
+    display: none; }
+  .body .select div:nth-child(3) {
+    display: none; }
+  .body .select div:nth-child(4) {
+    display: none; }
+  .body .select div:nth-child(5) {
+    display: none; }
+  .body .select div:nth-child(6) {
+    display: none; }
+  .body li {
+    list-style: none; }
+  .body .status-bar {
+    width: 100%;
+    height: 0.4rem;
+    background-color: gray; }
+  .body .shop-header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 0.5rem;
+    background-image: url(../img/shop-header.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center; }
+    .body .shop-header ul {
+      width: 93%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between; }
+      .body .shop-header ul li {
+        font-size: 0.17rem;
+        text-align: center;
+        color: #fff; }
+        .body .shop-header ul li img {
+          display: flex;
+          height: 100%; }
+  .body .banner,
+  .body .banner img {
+    width: 100%;
+    height: 2.10rem;
+    border-top: 1px gainsboro solid; }
+    .body .banner img,
+    .body .banner img img {
+      margin-top: 0.5rem; }
+  .body .six {
+    width: 100%;
+    height: 0.46rem;
+    display: flex;
+    justify-content: space-around; }
+    .body .six a {
+      text-decoration: none;
+      color: #000000; }
+    .body .six ul {
+      display: flex;
+      width: 100%; }
+    .body .six li {
+      width: 16.6%;
+      height: 0.46rem;
+      margin: auto; }
+    .body .six .cour {
+      border-bottom: 2px red solid;
+      color: red;
+      margin: auto; }
+  .body .six-d {
+    width: 0.6rem;
+    height: 0.46rem;
+    text-align: center;
+    line-height: 0.59rem; }
+  .body .select {
+    width: 100%;
+    background-color: #fff; }
+    .body .select .sel-one,
+    .body .select .sel-one-mom,
+    .body .select .sel-one-mz,
+    .body .select .sel-one-bjp,
+    .body .select .sel-one-jjsh,
+    .body .select .sel-one-sx {
+      width: 100%;
+      display: flex;
+      margin-top: 0.1rem;
+      justify-content: space-around;
+      background-color: ghostwhite; }
+      .body .select .sel-one ul,
+      .body .select .sel-one-mom ul,
+      .body .select .sel-one-mz ul,
+      .body .select .sel-one-bjp ul,
+      .body .select .sel-one-jjsh ul,
+      .body .select .sel-one-sx ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%; }
+        .body .select .sel-one ul li,
+        .body .select .sel-one-mom ul li,
+        .body .select .sel-one-mz ul li,
+        .body .select .sel-one-bjp ul li,
+        .body .select .sel-one-jjsh ul li,
+        .body .select .sel-one-sx ul li {
+          width: 48%;
+          height: 2.40rem;
+          text-align: center;
+          margin: auto;
+          background-color: #fff; }
+        .body .select .sel-one ul p,
+        .body .select .sel-one-mom ul p,
+        .body .select .sel-one-mz ul p,
+        .body .select .sel-one-bjp ul p,
+        .body .select .sel-one-jjsh ul p,
+        .body .select .sel-one-sx ul p {
+          width: 100%;
+          text-align: center; }
+        .body .select .sel-one ul li img,
+        .body .select .sel-one-mom ul li img,
+        .body .select .sel-one-mz ul li img,
+        .body .select .sel-one-bjp ul li img,
+        .body .select .sel-one-jjsh ul li img,
+        .body .select .sel-one-sx ul li img {
+          width: 90%;
+          height: 1.7rem;
+          margin-top: 0.05rem; }
+
+#jian {
+  color: white;
+  font-size: 0.22rem; }
+
+/*# sourceMappingURL=sign-in.css.map */

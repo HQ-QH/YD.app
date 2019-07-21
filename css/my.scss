@@ -1,0 +1,363 @@
+$bai:#ffffff;
+$hui:#c0c0c0;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #eee;
+}
+
+.header-top {
+    width: 100%;
+    background-image: url(../img/huo.png);
+    background-size: 100% 100%;
+    height: 0.72rem;
+    img {
+        display: flex;
+        position: absolute;
+        right: 0.12rem;
+        top: 0.1rem;
+    }
+}
+
+.header-mingp {
+    width: 96%;
+    margin: auto;
+    height: 1.5rem;
+    background-color: #2f2f2f;
+    border-radius: 0.09rem;
+    .header-mingp-one {
+        width: 100%;
+        height: 80%;
+        background-color: white;
+        border-radius: 0.08rem;
+        position: relative;
+        padding-top: 0.01rem;
+        .header-mingp-one-w {
+            width: 1.25rem;
+            height: 0.63rem;
+            margin-left: 0.17rem;
+            position: absolute;
+            top: -0.22rem;
+            display: flex;
+            .header-mingp-one-w-radius {
+                width: 50%;
+                height: 100%;
+                border-radius: 0.5rem;
+                background-image: url(../img/head-3.jpg);
+                background-size: 100% 100%;
+            }
+            h5 {
+                font-size: 0.17rem;
+                margin-left: 0.07rem;
+                line-height: 0.7rem;
+            }
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+            height: 0.34rem;
+            margin-top: 0.54rem;
+            li {
+                width: 13%;
+                height: 100%;
+                div:nth-of-type(1) {
+                    text-align: center;
+                    width: 100%;
+                    height: 50%;
+                    font-size: 0.13rem;
+                    color: #000000;
+                }
+                div:nth-of-type(2) {
+                    text-align: center;
+                    width: 100%;
+                    height: 50%;
+                    font-size: 0.14rem;
+                    color: #c4c4c4;
+                }
+            }
+        }
+    }
+    .header-mingp-two {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        img {
+            margin-left: 0.22rem;
+            height: 0.28rem;
+        }
+        a {
+            font-size: 0.14rem;
+            line-height: 0.3rem;
+            text-decoration: none;
+            color: #cec5a6;
+            margin-left: 1.2rem;
+        }
+    }
+}
+
+.Order-bck {
+    background-color: $bai;
+    width: 100%;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    .Order {
+        width: 100%;
+        height: 1.34rem;
+        .Order-head {
+            width: 100%;
+            height: 32%;
+            display: flex;
+            font-size: 0.15rem;
+            line-height: 0.42rem;
+            h3{
+                margin-left: 0.05rem;
+                font-size: 0.15rem;
+            }
+            a {
+                color: $hui;
+                margin-left: 2.2rem;
+                margin-top: 0.06rem;
+            }
+        }
+        .Order-w {
+            width: 100%;
+            height: 68%;
+            border-top: 1px solid $hui;
+            ul {
+                height: 0.54rem;
+                width: 95%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 0.18rem;
+                li {
+                    width: 12%;
+                    height: 100%;
+                    div:nth-of-type(1) {
+                        width: 100%;
+                        height: 50%;
+                        justify-content: center;
+                        display: flex;
+                        img {
+                            height: 100%;
+                        }
+                    }
+                    div:nth-of-type(2) {
+                        text-align: center;
+                        width: 100%;
+                        height: 50%;
+                        font-size: 0.13rem;
+                        line-height: 0.38rem;
+                        color: black;
+                    }
+                }
+                li:last-of-type {
+                    width: 15%;
+                }
+            }
+        }
+    }
+}
+
+.Myservice-bck {
+    width: 100%;
+    background-color: $bai;
+    .Myservice {
+        width: 100%;
+        height: 2.2rem;
+        .Myservice-head {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            font-size: 0.15rem;
+            line-height: 0.42rem;
+            h3{
+                margin-left: 0.05rem;
+                font-size: 0.15rem;
+            }
+        }
+        .Myservice-w {
+            width: 100%;
+            height: 70%;
+            border-top: 1px solid $hui;
+            ul {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                li {
+                    width: 17%;
+                    height: 50%;
+                    margin-top: 0.08rem;
+                    div:nth-of-type(1) {
+                        width: 100%;
+                        height: 50%;
+                        justify-content: center;
+                        display: flex;
+                        img {
+                            height: 100%;
+                        }
+                    }
+                    div:nth-of-type(2) {
+                        text-align: center;
+                        width: 100%;
+                        height: 50%;
+                        font-size: 0.13rem;
+                        line-height: 0.38rem;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+    .Recommend-guang {
+        display: flex;
+        height: 0.54rem;
+        img {
+            width: 100%;
+        }
+    }
+    .Recommend{
+        width: 100%;
+        margin-bottom: 0.5rem;
+        ul{
+            width: 100%;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: space-around;
+            li{
+                width: 45%;
+                height: 2.16rem;
+                .Recommend-img {
+                         width: 100%;
+                         height: 71%;
+                         margin-top: 0.05rem;
+                         img {
+                             width: 100%;
+                             height: 100%;
+                         }
+                     }
+                     .Recommend-txt {
+                         width: 100%;
+                         height: 9%;
+                         font-size: 0.13rem;
+                         text-align: center;
+                         overflow: hidden;
+                         a{
+                             color: #000000;
+                         }
+                     }
+                     .Recommend-txt1 {
+                         font-size: 0.13rem;
+                         text-align: center;
+                         width: 100%;
+                         height: 9%;
+                         text-overflow: ellipsis;
+                         overflow: hidden;
+                         white-space: nowrap;
+                         a{
+                             color: #000000;
+                         }
+                     }
+                     .Recommend-txt2 {
+                         text-align: center;
+                         font-size: 0.13rem;
+                         width: 100%;
+                         height: 11%;
+                         color: red;
+                         overflow: hidden;
+                         s {
+                             color: #a8a8a8;
+                             font-size: 0.12rem;
+                         }
+                         span {
+                             color: #a8a8a8;
+                             font-size: 0.11rem;
+                         }
+                     }
+            }
+        }
+ .Recommend-guang {
+        display: flex;
+        height: 0.54rem;
+        img {
+            width: 100%;
+        }
+    }
+    .Recommend{
+        width: 100%;
+        ul{
+            width: 100%;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: space-around;
+            li{
+                width: 45%;
+                height: 2.16rem;
+                .Recommend-img {
+                         width: 100%;
+                         height: 71%;
+                         margin-top: 0.05rem;
+                         img {
+                             width: 100%;
+                             height: 100%;
+                         }
+                     }
+                     .Recommend-txt {
+                         width: 100%;
+                         height: 9%;
+                         font-size: 0.13rem;
+                         text-align: center;
+                         overflow: hidden;
+                         a{
+                             color: #000000;
+                         }
+                     }
+                     .Recommend-txt1 {
+                         font-size: 0.13rem;
+                         text-align: center;
+                         width: 100%;
+                         height: 9%;
+                         text-overflow: ellipsis;
+                         overflow: hidden;
+                         white-space: nowrap;
+                         a{
+                             color: #000000;
+                         }
+                     }
+                     .Recommend-txt2 {
+                         text-align: center;
+                         font-size: 0.13rem;
+                         width: 100%;
+                         height: 11%;
+                         color: red;
+                         overflow: hidden;
+                         s {
+                             color: #a8a8a8;
+                             font-size: 0.12rem;
+                         }
+                         span {
+                             color: #a8a8a8;
+                             font-size: 0.11rem;
+                         }
+                     }
+            }
+        }
+        
+    }        
+    }
+}

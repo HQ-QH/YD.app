@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #eee; }
+
+.header-top {
+  width: 100%;
+  background-image: url(../img/huo.png);
+  background-size: 100% 100%;
+  height: 0.72rem; }
+  .header-top img {
+    display: flex;
+    position: absolute;
+    right: 0.12rem;
+    top: 0.1rem; }
+
+.header-mingp {
+  width: 96%;
+  margin: auto;
+  height: 1.5rem;
+  background-color: #2f2f2f;
+  border-radius: 0.09rem; }
+  .header-mingp .header-mingp-one {
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    border-radius: 0.08rem;
+    position: relative;
+    padding-top: 0.01rem; }
+    .header-mingp .header-mingp-one .header-mingp-one-w {
+      width: 1.25rem;
+      height: 0.63rem;
+      margin-left: 0.17rem;
+      position: absolute;
+      top: -0.22rem;
+      display: flex; }
+      .header-mingp .header-mingp-one .header-mingp-one-w .header-mingp-one-w-radius {
+        width: 50%;
+        height: 100%;
+        border-radius: 0.5rem;
+        background-image: url(../img/head-3.jpg);
+        background-size: 100% 100%; }
+      .header-mingp .header-mingp-one .header-mingp-one-w h5 {
+        font-size: 0.17rem;
+        margin-left: 0.07rem;
+        line-height: 0.7rem; }
+    .header-mingp .header-mingp-one ul {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      margin: auto;
+      height: 0.34rem;
+      margin-top: 0.54rem; }
+      .header-mingp .header-mingp-one ul li {
+        width: 13%;
+        height: 100%; }
+        .header-mingp .header-mingp-one ul li div:nth-of-type(1) {
+          text-align: center;
+          width: 100%;
+          height: 50%;
+          font-size: 0.13rem;
+          color: #000000; }
+        .header-mingp .header-mingp-one ul li div:nth-of-type(2) {
+          text-align: center;
+          width: 100%;
+          height: 50%;
+          font-size: 0.14rem;
+          color: #c4c4c4; }
+  .header-mingp .header-mingp-two {
+    width: 100%;
+    height: 20%;
+    display: flex; }
+    .header-mingp .header-mingp-two img {
+      margin-left: 0.22rem;
+      height: 0.28rem; }
+    .header-mingp .header-mingp-two a {
+      font-size: 0.14rem;
+      line-height: 0.3rem;
+      text-decoration: none;
+      color: #cec5a6;
+      margin-left: 1.2rem; }
+
+.Order-bck {
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem; }
+  .Order-bck .Order {
+    width: 100%;
+    height: 1.34rem; }
+    .Order-bck .Order .Order-head {
+      width: 100%;
+      height: 32%;
+      display: flex;
+      font-size: 0.15rem;
+      line-height: 0.42rem; }
+      .Order-bck .Order .Order-head h3 {
+        margin-left: 0.05rem;
+        font-size: 0.15rem; }
+      .Order-bck .Order .Order-head a {
+        color: #c0c0c0;
+        margin-left: 2.2rem;
+        margin-top: 0.06rem; }
+    .Order-bck .Order .Order-w {
+      width: 100%;
+      height: 68%;
+      border-top: 1px solid #c0c0c0; }
+      .Order-bck .Order .Order-w ul {
+        height: 0.54rem;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.18rem; }
+        .Order-bck .Order .Order-w ul li {
+          width: 12%;
+          height: 100%; }
+          .Order-bck .Order .Order-w ul li div:nth-of-type(1) {
+            width: 100%;
+            height: 50%;
+            justify-content: center;
+            display: flex; }
+            .Order-bck .Order .Order-w ul li div:nth-of-type(1) img {
+              height: 100%; }
+          .Order-bck .Order .Order-w ul li div:nth-of-type(2) {
+            text-align: center;
+            width: 100%;
+            height: 50%;
+            font-size: 0.13rem;
+            line-height: 0.38rem;
+            color: black; }
+        .Order-bck .Order .Order-w ul li:last-of-type {
+          width: 15%; }
+
+.Myservice-bck {
+  width: 100%;
+  background-color: #ffffff; }
+  .Myservice-bck .Myservice {
+    width: 100%;
+    height: 2.2rem; }
+    .Myservice-bck .Myservice .Myservice-head {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      font-size: 0.15rem;
+      line-height: 0.42rem; }
+      .Myservice-bck .Myservice .Myservice-head h3 {
+        margin-left: 0.05rem;
+        font-size: 0.15rem; }
+    .Myservice-bck .Myservice .Myservice-w {
+      width: 100%;
+      height: 70%;
+      border-top: 1px solid #c0c0c0; }
+      .Myservice-bck .Myservice .Myservice-w ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; }
+        .Myservice-bck .Myservice .Myservice-w ul li {
+          width: 17%;
+          height: 50%;
+          margin-top: 0.08rem; }
+          .Myservice-bck .Myservice .Myservice-w ul li div:nth-of-type(1) {
+            width: 100%;
+            height: 50%;
+            justify-content: center;
+            display: flex; }
+            .Myservice-bck .Myservice .Myservice-w ul li div:nth-of-type(1) img {
+              height: 100%; }
+          .Myservice-bck .Myservice .Myservice-w ul li div:nth-of-type(2) {
+            text-align: center;
+            width: 100%;
+            height: 50%;
+            font-size: 0.13rem;
+            line-height: 0.38rem;
+            color: black; }
+  .Myservice-bck .Recommend-guang {
+    display: flex;
+    height: 0.54rem; }
+    .Myservice-bck .Recommend-guang img {
+      width: 100%; }
+  .Myservice-bck .Recommend {
+    width: 100%;
+    margin-bottom: 0.5rem; }
+    .Myservice-bck .Recommend ul {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      .Myservice-bck .Recommend ul li {
+        width: 45%;
+        height: 2.16rem; }
+        .Myservice-bck .Recommend ul li .Recommend-img {
+          width: 100%;
+          height: 71%;
+          margin-top: 0.05rem; }
+          .Myservice-bck .Recommend ul li .Recommend-img img {
+            width: 100%;
+            height: 100%; }
+        .Myservice-bck .Recommend ul li .Recommend-txt {
+          width: 100%;
+          height: 9%;
+          font-size: 0.13rem;
+          text-align: center;
+          overflow: hidden; }
+          .Myservice-bck .Recommend ul li .Recommend-txt a {
+            color: #000000; }
+        .Myservice-bck .Recommend ul li .Recommend-txt1 {
+          font-size: 0.13rem;
+          text-align: center;
+          width: 100%;
+          height: 9%;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap; }
+          .Myservice-bck .Recommend ul li .Recommend-txt1 a {
+            color: #000000; }
+        .Myservice-bck .Recommend ul li .Recommend-txt2 {
+          text-align: center;
+          font-size: 0.13rem;
+          width: 100%;
+          height: 11%;
+          color: red;
+          overflow: hidden; }
+          .Myservice-bck .Recommend ul li .Recommend-txt2 s {
+            color: #a8a8a8;
+            font-size: 0.12rem; }
+          .Myservice-bck .Recommend ul li .Recommend-txt2 span {
+            color: #a8a8a8;
+            font-size: 0.11rem; }
+    .Myservice-bck .Recommend .Recommend-guang {
+      display: flex;
+      height: 0.54rem; }
+      .Myservice-bck .Recommend .Recommend-guang img {
+        width: 100%; }
+    .Myservice-bck .Recommend .Recommend {
+      width: 100%; }
+      .Myservice-bck .Recommend .Recommend ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; }
+        .Myservice-bck .Recommend .Recommend ul li {
+          width: 45%;
+          height: 2.16rem; }
+          .Myservice-bck .Recommend .Recommend ul li .Recommend-img {
+            width: 100%;
+            height: 71%;
+            margin-top: 0.05rem; }
+            .Myservice-bck .Recommend .Recommend ul li .Recommend-img img {
+              width: 100%;
+              height: 100%; }
+          .Myservice-bck .Recommend .Recommend ul li .Recommend-txt {
+            width: 100%;
+            height: 9%;
+            font-size: 0.13rem;
+            text-align: center;
+            overflow: hidden; }
+            .Myservice-bck .Recommend .Recommend ul li .Recommend-txt a {
+              color: #000000; }
+          .Myservice-bck .Recommend .Recommend ul li .Recommend-txt1 {
+            font-size: 0.13rem;
+            text-align: center;
+            width: 100%;
+            height: 9%;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap; }
+            .Myservice-bck .Recommend .Recommend ul li .Recommend-txt1 a {
+              color: #000000; }
+          .Myservice-bck .Recommend .Recommend ul li .Recommend-txt2 {
+            text-align: center;
+            font-size: 0.13rem;
+            width: 100%;
+            height: 11%;
+            color: red;
+            overflow: hidden; }
+            .Myservice-bck .Recommend .Recommend ul li .Recommend-txt2 s {
+              color: #a8a8a8;
+              font-size: 0.12rem; }
+            .Myservice-bck .Recommend .Recommend ul li .Recommend-txt2 span {
+              color: #a8a8a8;
+              font-size: 0.11rem; }
+
+/*# sourceMappingURL=my.css.map */

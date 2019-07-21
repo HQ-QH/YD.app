@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.header-sou {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  background-image: url(../img/shop-header.png);
+  background-size: 100% 100%; }
+  .header-sou ul {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+    .header-sou ul li {
+      width: 8%;
+      height: 0.3rem;
+      margin: 0.1rem 0; }
+    .header-sou ul li:nth-of-type(1) {
+      height: 0.23rem;
+      margin: auto 0; }
+      .header-sou ul li:nth-of-type(1) img {
+        display: flex;
+        height: 100%; }
+    .header-sou ul li:nth-of-type(2) {
+      width: 66%;
+      font-size: 0.2rem;
+      color: #FFFFFF;
+      text-align: center; }
+    .header-sou ul li:nth-of-type(3) {
+      height: 0.23rem;
+      margin: auto 0; }
+      .header-sou ul li:nth-of-type(3) img {
+        display: flex;
+        height: 100%; }
+    .header-sou ul li:nth-of-type(4) {
+      height: 0.23rem;
+      margin: auto 0; }
+      .header-sou ul li:nth-of-type(4) img {
+        display: flex;
+        height: 100%; }
+
+.header-nav {
+  width: 100%; }
+  .header-nav ul {
+    width: 96%;
+    height: 0.32rem;
+    margin: auto;
+    margin-top: 0.12rem;
+    display: flex;
+    justify-content: space-between; }
+    .header-nav ul li {
+      font-size: 0.15rem;
+      height: 100%; }
+      .header-nav ul li a {
+        color: #000000; }
+    .header-nav ul li:nth-of-type(1) {
+      border-bottom: 2px solid #ba0020; }
+      .header-nav ul li:nth-of-type(1) a {
+        color: #ba0020; }
+
+.main {
+  background-color: #f2f1f7;
+  padding-bottom: 0.01rem;
+  width: 100%; }
+  .main ul {
+    width: 100%; }
+    .main ul li {
+      width: 100%;
+      height: 1.86rem;
+      background-color: #ffffff;
+      margin-bottom: 0.1rem;
+      padding-top: 0.01rem; }
+      .main ul li .main-w {
+        width: 96%;
+        height: 1.52rem;
+        margin: 0.17rem auto; }
+        .main ul li .main-w .main-w-one {
+          width: 100%;
+          height: 0.41rem;
+          display: flex;
+          justify-content: space-between; }
+          .main ul li .main-w .main-w-one div:nth-of-type(1) {
+            height: 100%;
+            width: 0.41rem; }
+            .main ul li .main-w .main-w-one div:nth-of-type(1) img {
+              border-radius: 0.5rem;
+              width: 100%;
+              height: 100%; }
+          .main ul li .main-w .main-w-one div:nth-of-type(2) {
+            height: 86%;
+            width: 2.57rem;
+            margin: auto; }
+            .main ul li .main-w .main-w-one div:nth-of-type(2) p {
+              font-size: 0.13rem;
+              font-weight: 600; }
+            .main ul li .main-w .main-w-one div:nth-of-type(2) span {
+              font-size: 0.11rem;
+              line-height: 0.25rem;
+              color: #979797; }
+          .main ul li .main-w .main-w-one div:nth-of-type(3) {
+            width: 0.48rem;
+            display: flex; }
+            .main ul li .main-w .main-w-one div:nth-of-type(3) input {
+              font-size: 0.13rem;
+              width: 100%;
+              height: 0.24rem;
+              color: #ff304f;
+              border: 1px solid #ff304f;
+              background: transparent;
+              outline: none; }
+        .main ul li .main-w h3 {
+          margin-left: 0.02rem;
+          margin-top: 0.28rem;
+          margin-bottom: 0.2rem; }
+        .main ul li .main-w .main-w-two {
+          width: 100%;
+          height: 0.9rem;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 0.22rem; }
+          .main ul li .main-w .main-w-two div:nth-of-type(1) {
+            width: 0.9rem; }
+            .main ul li .main-w .main-w-two div:nth-of-type(1) img {
+              width: 100%; }
+          .main ul li .main-w .main-w-two div:nth-of-type(2) {
+            width: 2.54rem; }
+            .main ul li .main-w .main-w-two div:nth-of-type(2) p:nth-of-type(1) {
+              width: 95%;
+              height: 0.65rem;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+              .main ul li .main-w .main-w-two div:nth-of-type(2) p:nth-of-type(1) a {
+                color: #000000; }
+            .main ul li .main-w .main-w-two div:nth-of-type(2) p:nth-of-type(2) {
+              color: #979797; }
+        .main ul li .main-w .main-w-two2 {
+          width: 98%;
+          height: 1.15rem;
+          margin: auto;
+          display: flex;
+          justify-content: space-between; }
+          .main ul li .main-w .main-w-two2 div {
+            width: 32%; }
+            .main ul li .main-w .main-w-two2 div img {
+              width: 100%;
+              height: 100%; }
+    .main ul li:last-of-type {
+      height: 2.51rem; }
+
+.main1 {
+  padding-top: 0.1rem; }
+  .main1 .guang {
+    width: 93%;
+    margin: auto; }
+    .main1 .guang img {
+      width: 100%; }
+  .main1 .guang-w {
+    width: 93%;
+    margin: auto; }
+    .main1 .guang-w ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0.1rem 0;
+      flex-wrap: wrap; }
+      .main1 .guang-w ul li {
+        width: 22%;
+        height: 1.50rem; }
+        .main1 .guang-w ul li ul {
+          width: 100%;
+          height: 100%;
+          display: block;
+          margin: 0; }
+          .main1 .guang-w ul li ul li:nth-of-type(1) {
+            width: 100%;
+            height: 54%; }
+            .main1 .guang-w ul li ul li:nth-of-type(1) img {
+              width: 100%;
+              height: 100%; }
+          .main1 .guang-w ul li ul li:nth-of-type(2) {
+            width: 100%;
+            height: 26%;
+            overflow: hidden; }
+            .main1 .guang-w ul li ul li:nth-of-type(2) p {
+              width: 100%;
+              height: 100%;
+              margin: auto;
+              text-align: center; }
+              .main1 .guang-w ul li ul li:nth-of-type(2) p a {
+                font-size: 0.1rem;
+                color: #000000; }
+          .main1 .guang-w ul li ul li:last-of-type {
+            width: 105%;
+            height: 13%;
+            text-align: center;
+            margin: auto;
+            color: #cb423b;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 0.12rem; }
+            .main1 .guang-w ul li ul li:last-of-type s {
+              font-size: 0.11rem;
+              color: #a8a8a8; }
+
+.Recommend-guang {
+  display: flex;
+  height: 0.54rem; }
+  .Recommend-guang img {
+    width: 100%; }
+
+.Recommend {
+  width: 100%;
+  margin-bottom: 0.5rem; }
+  .Recommend ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .Recommend ul li {
+      width: 45%;
+      height: 2.16rem; }
+      .Recommend ul li .Recommend-img {
+        width: 100%;
+        height: 71%;
+        margin-top: 0.05rem; }
+        .Recommend ul li .Recommend-img img {
+          width: 100%;
+          height: 100%; }
+      .Recommend ul li .Recommend-txt {
+        width: 100%;
+        height: 9%;
+        font-size: 0.13rem;
+        text-align: center;
+        overflow: hidden; }
+        .Recommend ul li .Recommend-txt a {
+          color: #000000; }
+      .Recommend ul li .Recommend-txt1 {
+        font-size: 0.13rem;
+        text-align: center;
+        width: 100%;
+        height: 9%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap; }
+        .Recommend ul li .Recommend-txt1 a {
+          color: #000000; }
+      .Recommend ul li .Recommend-txt2 {
+        text-align: center;
+        font-size: 0.13rem;
+        width: 100%;
+        height: 11%;
+        color: red;
+        overflow: hidden; }
+        .Recommend ul li .Recommend-txt2 s {
+          color: #a8a8a8;
+          font-size: 0.12rem; }
+        .Recommend ul li .Recommend-txt2 span {
+          color: #a8a8a8;
+          font-size: 0.11rem; }
+
+/*# sourceMappingURL=Findgood.css.map */

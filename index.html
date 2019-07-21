@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<title></title>
+		<script type="text/javascript" src="js/rem.js"></script>
+		<link rel="stylesheet" href="css/new_file.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<script type="text/javascript" src="js/jquery-1.12.4.js" ></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<script type="text/javascript" src="js/all.js" ></script>
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<!-- Demo styles -->
+		<style>
+			html,
+			body {
+				position: relative;
+				height: 100%;
+			}
+			
+			body {
+				background: #eee;
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				font-size: 14px;
+				color: #000;
+				margin: 0;
+				padding: 0;
+			}
+			.swiper-container {
+				width: 100%;
+				margin-top: 0.5rem;
+			}
+			
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #fff;
+				/* Center slide text vertically */
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="header-sou">
+			<ul>
+				<li>
+					<a href="#">
+						<img src="img/sao_03.png" />
+					</a>
+				</li>
+
+				<li>
+					<input type="image" src="img/sou.png" />
+					<input type="text" placeholder="手机箱包" />
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/hongb.png" />
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/wen_05.png" />
+					</a>
+				</li>
+			</ul>
+
+		</div>
+
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/banner.jpg" style="width: 100%; height: 100%;" /></div>
+				<div class="swiper-slide"><img src="img/banner1.jpg" style="width: 100%;height: 100%;" /></div>
+				<div class="swiper-slide"><img src="img/banner2.jpg" style="width: 100%;height: 100%;" /></div>
+				<div class="swiper-slide"><img src="img/banner3.jpg" style="width: 100%;height: 100%;" /></div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+
+		<!-- Swiper JS -->
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				pagination: {
+					el: '.swiper-pagination',
+				},
+			});
+		</script>
+		<div class="main-bck">
+
+			<div class="nav">
+				<ul>
+					<li>
+						<a href="qdld.html">
+							<img src="img/in-05_03.png" /> 每日签到
+						</a>
+					</li>
+					<li>
+						<a href="xsqg.html">
+							<img src="img/in-06_03.png" /> 限时抢购
+						</a>
+
+					</li>
+					<li>
+						<a href="bjhy.html">
+							<img src="img/in-07_03.png" /> 会员专享
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/in-08_03.png" /> 好货拼团
+						</a>
+					</li>
+					<li>
+						<a href="youhui.html">
+							<img src="img/in-10_03.png" /> 分享领劵
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="main">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="img/in-01_03.png" />
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/in-02_05.png" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="main1">
+				<ul>
+					<li>
+						<a href="#">
+							GO >
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							GO >
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							GO >
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							GO >
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main-w-bck">
+
+			<div class="guang">
+				<a href="#">
+					<img src="img/in-11_07.png" />
+				</a>
+			</div>
+			<div class="guang-w">
+				<ul>
+					<li id="xiangQing">
+						<ul>
+							<li>
+								<img src="img/guang-01_03.png" />
+							</li>
+							<li>
+								茵曼2017秋装
+							</li>
+							<li>
+								新款小清新aaafsfs
+							</li>
+							<li>
+								￥249
+								<s>
+								￥499
+								</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-02_03.png" />
+							</li>
+							<li>
+								科克兰盐焗烘
+							</li>
+							<li>
+								烤开心果1.3abc
+							</li>
+							<li>
+								￥99
+								<s>￥198</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-03_03.png" />
+							</li>
+							<li>
+								格搭咸鸭蛋黄
+							</li>
+							<li>
+								饼干80克/袋
+							</li>
+							<li>
+								￥12.9
+								<s>￥49</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-04_03.png" />
+							</li>
+							<li>
+								唯他可可椰
+							</li>
+							<li>
+								水饮料330.
+							</li>
+							<li>
+								￥198
+								<s>￥29</s>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div class="guang1">
+				<a href="#">
+					<img src="img/cf-5.jpg" />
+				</a>
+			</div>
+			<div class="guang1-w">
+				<ul>
+					<li id="xiangQing1">
+						<ul>
+							<li>
+								<img src="img/guang-01_03.png" />
+							</li>
+							<li>
+								茵曼2017秋装
+							</li>
+							<li>
+								新款小清新aaafsfs
+							</li>
+							<li>
+								￥249
+								<s>
+								￥499
+								</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-02_03.png" />
+							</li>
+							<li>
+								科克兰盐焗烘
+							</li>
+							<li>
+								烤开心果1.3abc
+							</li>
+							<li>
+								￥99
+								<s>￥198</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-03_03.png" />
+							</li>
+							<li>
+								格搭咸鸭蛋黄
+							</li>
+							<li>
+								饼干80克/袋
+							</li>
+							<li>
+								￥12.9
+								<s>￥49</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-04_03.png" />
+							</li>
+							<li>
+								唯他可可椰
+							</li>
+							<li>
+								水饮料330.
+							</li>
+							<li>
+								￥198
+								<s>￥29</s>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div class="guang2">
+				<a href="#">
+					<img src="img/cf-7.jpg" />
+				</a>
+			</div>
+			<div class="guang2-w">
+				<ul>
+					<li id="xiangQing2">
+						<ul>
+							<li>
+								<img src="img/guang-01_03.png" />
+							</li>
+							<li>
+								茵曼2017秋装
+							</li>
+							<li>
+								新款小清新aaafsfs
+							</li>
+							<li>
+								￥249
+								<s>
+								￥499
+								</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-02_03.png" />
+							</li>
+							<li>
+								科克兰盐焗烘
+							</li>
+							<li>
+								烤开心果1.3abc
+							</li>
+							<li>
+								￥99
+								<s>￥198</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-03_03.png" />
+							</li>
+							<li>
+								格搭咸鸭蛋黄
+							</li>
+							<li>
+								饼干80克/袋
+							</li>
+							<li>
+								￥12.9
+								<s>￥49</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-04_03.png" />
+							</li>
+							<li>
+								唯他可可椰
+							</li>
+							<li>
+								水饮料330.
+							</li>
+							<li>
+								￥198
+								<s>￥29</s>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div class="guang3">
+				<a href="#">
+					<img src="img/cf-6.jpg" />
+				</a>
+			</div>
+			<div class="guang3-w">
+				<ul>
+					<li id="xiangQing3">
+						<ul>
+							<li>
+								<img src="img/guang-01_03.png" />
+							</li>
+							<li>
+								茵曼2017秋装
+							</li>
+							<li>
+								新款小清新aaafsfs
+							</li>
+							<li>
+								￥249
+								<s>
+								￥499
+								</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-02_03.png" />
+							</li>
+							<li>
+								科克兰盐焗烘
+							</li>
+							<li>
+								烤开心果1.3abc
+							</li>
+							<li>
+								￥99
+								<s>￥198</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-03_03.png" />
+							</li>
+							<li>
+								格搭咸鸭蛋黄
+							</li>
+							<li>
+								饼干80克/袋
+							</li>
+							<li>
+								￥12.9
+								<s>￥49</s>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<img src="img/guang-04_03.png" />
+							</li>
+							<li>
+								唯他可可椰
+							</li>
+							<li>
+								水饮料330.
+							</li>
+							<li>
+								￥198
+								<s>￥29</s>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<!--Recommend:为你推荐-->
+			<div class="Recommend-guang">
+				<img src="img/icon-tj3.jpg" />
+			</div>
+			<div class="Recommend">
+				<ul>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-15.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-14.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-11.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-10.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-9.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-8.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-16.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-15.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-17.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-18.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-19.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-20.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-21.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-22.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-24.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+					<li>
+						<div class="Recommend-img">
+							<img src="img/sf-23.jpg" />
+						</div>
+						<div class="Recommend-txt">
+							<a href="#">KOBELETTUCE秋冬新款女</a>
+						</div>
+						<div class="Recommend-txt1">
+							<a href="#">士日系甜美纯色半高领宽…</a>
+						</div>
+						<div class="Recommend-txt2">
+							￥399.99 &nbsp;<s>¥495.65</s> &nbsp;<span>986评论</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer">
+			<ul>
+				<li class="check">
+					<div class="glyphicon glyphicon-home" aria-hidden="true"></div>
+					<div>首页</div>
+				</li>
+				<li>
+					<div class="glyphicon glyphicon-th-large" aria-hidden="true"></div>
+					<div>分类</div>
+				</li>
+				<li>
+					<div class="glyphicon glyphicon-record" aria-hidden="true"></div>
+					<div>发现</div>
+				</li>
+				<li>
+					<div class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></div>
+					<div>购物车</div>
+				</li>
+				<li>
+					<div class="glyphicon glyphicon-user" aria-hidden="true"></div>
+					<div>我的</div>
+				</li>
+			</ul>
+		</div>
+		</div>
+
+	</body>
+
+</html>

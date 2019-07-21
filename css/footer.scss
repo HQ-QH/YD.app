@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.footer {
+    width: 100%;
+    height: 0.52rem;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    background-color: white;
+    ul {
+        width: 90%;
+        height: 77%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        li {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            
+            div:first-of-type {
+                font-size: 0.2rem;
+                span{
+                    text-align: center;
+                }
+            }
+            div:last-of-type {
+                margin-top: 0.06rem;
+                font-size: 0.1rem;
+            }
+        }
+        .check{
+            color: #ca2c21;
+        }
+    }
+}

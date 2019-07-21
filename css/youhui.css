@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+body {
+  overflow-x: hidden;
+ }
+
+header {
+	position: fixed;
+	z-index: 99;
+	top: 0;
+  width: 100%;
+  height: 0.47rem;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  header > ul {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    height: 0.25rem; }
+    header > ul li:nth-of-type(2) {
+      font-size: 0.18rem; }
+    header > ul li {
+      overflow-y: hidden; }
+      header > ul li img {
+        height: 100%;
+        display: flex; }
+      header > ul li img:nth-of-type(1) {
+        margin-left: 0.08rem; }
+      header > ul li img:last-of-type {
+        margin-right: 0.2rem; }
+.main-bck{
+	background-color: #e65e48;
+	margin-top: 0.47rem;
+	margin-bottom: 0.62rem;
+}
+.main{
+	height: 7.2rem;
+	width: 100%;
+}
+.main ul li{
+	width: 94%;
+	height: 1.9rem;
+	margin: auto;
+	display: flex;
+}
+.main ul li:nth-of-type(1){
+	display: block;
+	padding-top: 0.01rem;
+}
+.main ul li:nth-of-type(1) h1{
+	font-size: 0.41rem;
+	color: white;
+	text-align: center;
+  margin: auto;
+  margin-top: 0.6rem;
+  height: 0.42rem;
+}
+.liThere{
+	width: 3.2rem;
+	height: 0.25rem;
+	margin: auto;
+	margin-top: 0.36rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.23rem;
+	color: white;
+	line-height: 0.2rem;
+}
+.liThere img{
+	width: 0.5rem;
+}
+
+
+
+.main ul li:nth-of-type(2){
+	border-radius:0.08rem;
+	background-color: white;
+	position: relative;
+}
+.main ul li:nth-of-type(3){
+	border-radius:0.08rem;
+	background-color: white;
+	margin-top: 0.2rem;
+	position: relative;
+}
+.mainOne{
+	width: 2.23rem;
+	position: absolute;
+	top: -0.07rem;
+	left: 0.6rem;
+}
+.liOne{
+	width: 2.97rem;
+	height: 0.7rem;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.liOne div{
+	width: 50%;
+	height: 100%;
+}
+.liOne div h3{
+	font-size: 0.15rem;
+}
+.liOne div h3:nth-of-type(1){
+	margin-top: 0.14rem;
+}
+.liOne div img{
+	display: flex;
+	width: 100%;
+}
+.liTwo{
+	width: 2.97rem;
+	height: 0.7rem;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.liTwo div{
+	width: 50%;
+	height: 100%;
+}
+.liTwo div h3{
+	font-size: 0.15rem;
+}
+.liTwo div h3:nth-of-type(1){
+	margin-top: 0.14rem;
+}
+.liTwo div img{
+	display: flex;
+	width: 100%;
+}
+.yh-main-3 {
+	position: fixed;
+	bottom: 0;
+  width: 100%;
+  background: #FDF0CD;
+  height: 0.55rem;
+  border-bottom: 0.02rem solid #FDF0CD;
+  padding-bottom: 0.05rem; }
+  .yh-main-3 > div {
+    width: 90%;
+    margin: auto;
+    font-size: 0;
+    background: #FDF0CD;
+    display: flex;
+    justify-content: space-between; }
+    .yh-main-3 > div a {
+      width: 46%;
+      margin-top: 0.1rem; }
+      .yh-main-3 > div a > img {
+        width: 100%;
+        background: #FDF0CD; }
+/*# sourceMappingURL=youhui.css.map */
